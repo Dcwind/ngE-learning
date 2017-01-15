@@ -15,7 +15,7 @@ export class SearchBoxComponent implements OnInit {
     }
 
     clear(){
-      console.log("cleared...")
+      console.log("cleared...");
     }
 
   ngOnInit() {
