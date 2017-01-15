@@ -8,14 +8,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class SearchBoxComponent implements OnInit {
 
     @Input('placeholder')
-    text = 'Type your search';
+    text: string;
 
     constructor() {
+      this.text = 'Type your search';
 
     }
 
     clear(){
       console.log("cleared...");
+      
     }
 
   ngOnInit() {
