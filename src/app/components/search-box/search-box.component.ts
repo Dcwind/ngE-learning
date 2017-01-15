@@ -14,6 +14,10 @@ export class SearchBoxComponent implements OnInit {
 
     }
 
+    clear(){
+      console.log("cleared...")
+    }
+
   ngOnInit() {
   }
 
