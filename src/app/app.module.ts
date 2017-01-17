@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ColorPickerComponent } from './components/color-picker/color-picker.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MenuComponent } from './components/menu/menu.component';
     HomeComponent,
     SettingsComponent,
     SearchBoxComponent,
-    MenuComponent
+    MenuComponent,
+    ColorPickerComponent
   ],
   imports: [
     BrowserModule,
