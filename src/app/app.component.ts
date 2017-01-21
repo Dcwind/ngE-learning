@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {BLUE, RED} from "../constants";
 
 @Component({
   selector: 'app-root',
