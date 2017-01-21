@@ -18,7 +18,6 @@ export class ColorPickerComponent implements OnInit {
     this.colorOutput.emit(color);
   }
 
-
   constructor() { }
 
 
