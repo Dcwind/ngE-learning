@@ -9,6 +9,7 @@ import { SettingsComponent } from './components/settings/settings.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ColorPickerComponent } from './components/color-picker/color-picker.component';
+import { ColorPreviewerComponent } from './components/color-previewer/color-previewer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ColorPickerComponent } from './components/color-picker/color-picker.com
     SettingsComponent,
     SearchBoxComponent,
     MenuComponent,
-    ColorPickerComponent
+    ColorPickerComponent,
+    ColorPreviewerComponent
   ],
   imports: [
     BrowserModule,
