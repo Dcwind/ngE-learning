@@ -19,7 +19,7 @@ export class ColorPickerComponent implements OnInit {
   }
 
   reset() {
-    this.choose('black');
+    this.choose('black'); 
   }
 
   constructor() { }
